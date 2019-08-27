@@ -39,3 +39,10 @@ git push -f 강제 푸쉬
 git rm -r --cached .
 git add .
 git commit -m "fixed untracked files"
+
+
+
+//브런치
+git branch 
+git branch test
+git checkout test
