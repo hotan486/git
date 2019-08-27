@@ -46,3 +46,9 @@ git commit -m "fixed untracked files"
 git branch 
 git branch test
 git checkout test
+
+git merge test
+
+git branch -d test
+
+//
