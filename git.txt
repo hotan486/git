@@ -1,0 +1,41 @@
+https://git-scm.com/ 
+git 설치
+
+git -version 
+깃 설치
+
+git config --global user.name hotan486
+git config --global user.email hotan486@naver.com
+
+git clone https://github.com/hotan486/git.git 원격지 받기
+
+git add git.txt
+git add .
+
+
+git commit -m "메세지.."
+
+git push
+
+git status 상태 확인
+
+git checkout -- 123.txt
+
+git commit --amend 내용 수정
+esc :wq 
+
+git pull 
+
+
+git log 로그 보기 
+q
+
+git push -f 강제 푸쉬
+
+
+// .gitignore 원격지 올리는데 올리고 싶지 않은 파일  
+// 적용 안될 경우 
+
+git rm -r --cached .
+git add .
+git commit -m "fixed untracked files"
